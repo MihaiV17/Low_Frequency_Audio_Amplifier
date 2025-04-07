@@ -1,0 +1,293 @@
+(ExpressProject "AFJ_N22"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\modele_a1_lib\1n4148.lib"
+        (Type "PSpiceLibrary"))
+      (File ".\modele_a1_lib\bc807-25.lib"
+        (Type "PSpiceLibrary"))
+      (File ".\modele_a1_lib\bc817-25.lib"
+        (Type "PSpiceLibrary"))
+      (File ".\modele_a1_lib\bc846b.lib"
+        (Type "PSpiceLibrary"))
+      (File ".\modele_a1_lib\bc856b.lib"
+        (Type "PSpiceLibrary"))
+      (File ".\modele_a1_lib\bzx84c2v7.lib"
+        (Type "PSpiceLibrary"))
+      (File ".\modele_a1_lib\bzx84c5v1.lib"
+        (Type "PSpiceLibrary"))
+      (File ".\modele_a1_lib\bzx84c5v6.lib"
+        (Type "PSpiceLibrary"))
+      (File ".\modele_a1_lib\bzx84c6v2.lib"
+        (Type "EDIF Netlist"))
+      (File ".\modele_a1_lib\bzx84c6v8.lib"
+        (Type "PSpiceLibrary"))
+      (File ".\modele_a1_lib\bzx84c8v2.lib"
+        (Type "PSpiceLibrary"))
+      (File ".\modele_a1_lib\bzx84c10.lib"
+        (Type "PSpiceLibrary"))
+      (File ".\modele_a1_lib\irfr120npbf.lib"
+        (Type "PSpiceLibrary"))
+      (File ".\modele_a1_lib\mjd31cg.lib"
+        (Type "PSpiceLibrary"))
+      (File ".\modele_a1_lib\mjd32cg.lib"
+        (Type "PSpiceLibrary"))
+      (File ".\modele_a1_lib\mmbfj177lt1g.lib"
+        (Type "PSpiceLibrary"))
+      (File ".\modele_a1_lib\mmbfj309lt1g.lib"
+        (Type "PSpiceLibrary"))
+      (File ".\modele_a1_lib\smls14bet.lib"
+        (Type "PSpiceLibrary"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\1n4148.lib"
+        (Type "PSpiceLibrary"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc807-25.lib"
+        (Type "PSpiceLibrary"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc817-25.lib"
+        (Type "PSpiceLibrary"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc846b.lib"
+        (Type "PSpiceLibrary"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc856b.lib"
+        (Type "PSpiceLibrary"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c2v7.lib"
+        (Type "PSpiceLibrary"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c5v1.lib"
+        (Type "PSpiceLibrary"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c5v6.lib"
+        (Type "PSpiceLibrary"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c6v2.lib"
+        (Type "PSpiceLibrary"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c6v8.lib"
+        (Type "PSpiceLibrary"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c8v2.lib"
+        (Type "PSpiceLibrary"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c10.lib"
+        (Type "PSpiceLibrary"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\irfr120npbf.lib"
+        (Type "PSpiceLibrary"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\mjd31cg.lib"
+        (Type "PSpiceLibrary"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\mjd32cg.lib"
+        (Type "PSpiceLibrary"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\mmbfj177lt1g.lib"
+        (Type "PSpiceLibrary"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\mmbfj309lt1g.lib"
+        (Type "PSpiceLibrary")))
+    (NoModify)
+    (File ".\afj_n22.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\afj_n22-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\afj_n22-pspicefiles\schematic1\psf.sim"
+        (DisplayName "SCHEMATIC1-psf")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\afj_n22-pspicefiles\schematic1\timp.sim"
+        (DisplayName "SCHEMATIC1-timp")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\afj_n22-pspicefiles\schematic1\ac.sim"
+        (DisplayName "SCHEMATIC1-ac")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\afj_n22-pspicefiles\schematic1\fjj.sim"
+        (DisplayName "SCHEMATIC1-fjj")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\afj_n22-pspicefiles\schematic1\as.sim"
+        (DisplayName "SCHEMATIC1-as")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\afj_n22-pspicefiles\schematic1\psf.sim"))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\modele_a1_lib\1n4148.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\modele_a1_lib\1n4148.lib"))
+      (File ".\modele_a1_lib\bc807-25.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\modele_a1_lib\bc807-25.lib"))
+      (File ".\modele_a1_lib\bc817-25.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\modele_a1_lib\bc817-25.lib"))
+      (File ".\modele_a1_lib\bc846b.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\modele_a1_lib\bc846b.lib"))
+      (File ".\modele_a1_lib\bc856b.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\modele_a1_lib\bc856b.lib"))
+      (File ".\modele_a1_lib\bzx84c2v7.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\modele_a1_lib\bzx84c2v7.lib"))
+      (File ".\modele_a1_lib\bzx84c5v1.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\modele_a1_lib\bzx84c5v1.lib"))
+      (File ".\modele_a1_lib\bzx84c5v6.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\modele_a1_lib\bzx84c5v6.lib"))
+      (File ".\modele_a1_lib\bzx84c6v2.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\modele_a1_lib\bzx84c6v2.lib"))
+      (File ".\modele_a1_lib\bzx84c6v8.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\modele_a1_lib\bzx84c6v8.lib"))
+      (File ".\modele_a1_lib\bzx84c8v2.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\modele_a1_lib\bzx84c8v2.lib"))
+      (File ".\modele_a1_lib\bzx84c10.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\modele_a1_lib\bzx84c10.lib"))
+      (File ".\modele_a1_lib\irfr120npbf.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\modele_a1_lib\irfr120npbf.lib"))
+      (File ".\modele_a1_lib\mjd31cg.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\modele_a1_lib\mjd31cg.lib"))
+      (File ".\modele_a1_lib\mjd32cg.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\modele_a1_lib\mjd32cg.lib"))
+      (File ".\modele_a1_lib\mmbfj177lt1g.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\modele_a1_lib\mmbfj177lt1g.lib"))
+      (File ".\modele_a1_lib\mmbfj309lt1g.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\modele_a1_lib\mmbfj309lt1g.lib"))
+      (File ".\modele_a1_lib\smls14bet.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\modele_a1_lib\smls14bet.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\1n4148.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\1n4148.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc807-25.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bc807-25.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc817-25.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bc817-25.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc846b.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bc846b.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc856b.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bc856b.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c2v7.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c2v7.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c5v1.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c5v1.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c5v6.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c5v6.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c6v2.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c6v2.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c6v8.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c6v8.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c8v2.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c8v2.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c10.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c10.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\irfr120npbf.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "..\lib_modelepspice_anexa_1\modele_a1_lib\irfr120npbf.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\mjd31cg.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\mjd31cg.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\mjd32cg.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\mjd32cg.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\mmbfj177lt1g.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "..\lib_modelepspice_anexa_1\modele_a1_lib\mmbfj177lt1g.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\mmbfj309lt1g.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "..\lib_modelepspice_anexa_1\modele_a1_lib\mmbfj309lt1g.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (VAC
+      (FullPartName "VAC.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (QBC817-25
+      (FullPartName "QBC817-25.Normal")
+      (LibraryName
+         "D:\DOCUMENTE\UPB\AN III\SEMESTRUL 1\2022_PROIECT_1\AMPLIFICATOR IONUT\LIB_MODELEPSPICE_ANEXA_1_A\MODELE_A1_LIB\BC817-25.OLB")
+      (DeviceIndex "0"))
+    (QBC807-25
+      (FullPartName "QBC807-25.Normal")
+      (LibraryName
+         "D:\DOCUMENTE\UPB\AN III\SEMESTRUL 1\2022_PROIECT_1\AMPLIFICATOR IONUT\LIB_MODELEPSPICE_ANEXA_1_A\MODELE_A1_LIB\BC807-25.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VSIN
+      (FullPartName "VSIN.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "C:\Users\Mihai\Desktop\schema\afj_n22.dsn")
+      (Path "Design Resources" "C:\Users\Mihai\Desktop\schema\afj_n22.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "Design Resources" "C:\Users\Mihai\Desktop\schema\afj_n22.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 686"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1382 104 531")
+        (Scroll "0 60")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\MIHAI\DESKTOP\SCHEMA\AFJ_N22.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "Mihai")
+  (LastUsedLibraryBrowseDirectory
+     "C:\Users\Mihai\Desktop\Lib_ModelePSpice_Anexa_1\Modele_A1_lib"))
